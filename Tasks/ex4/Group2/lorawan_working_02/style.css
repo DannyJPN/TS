@@ -1,0 +1,556 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: normal;
+    background-image: url('../images/background.png');
+    color: #000000;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+h1 {
+    font-size: large;
+    font-weight: bold;
+    border-bottom: 1px solid #99B1F6;
+}
+h2 {
+    font-size: medium;
+    font-weight: bolder;
+    color: Black;
+    border-bottom: 1px solid #99B1F6;
+}
+h3 {
+    font-size: medium;
+    font-weight: bolder;
+    color: Gray;
+    border-bottom: 1px solid #99B1F6;   
+}
+h4 {
+    font-size: small;
+    font-weight: bold;
+    border-bottom: 1px solid #99B1F6;   
+    margin: 0px;
+    padding: 0px;
+}
+h5 {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.text {
+    font-size: small;
+    font-style: normal;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.list {
+    list-style-position: outside;
+    list-style-type: square;
+}
+
+.list li {
+    margin-top: 10px;
+}
+
+.nazev {
+    font-weight: bold;
+}
+
+#content {
+    background-color: White;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    position: absolute;
+    height: 100%;
+    left: 170px;
+    top: 0px;
+    right: 0pt;
+}
+
+#main {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    height: 100%;   
+}
+
+#bottomnav {
+    height: 20px;
+    padding-top: 5px;
+    padding-left: 15px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    background-color: #F6F6F6;
+    vertical-align: middle;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-top: 1px dashed #D9D9D9;
+    font-size: x-small;
+    color: Gray;
+    margin: 0px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+#leftnav {
+    width: 160px;
+    height: 100%;
+    margin: 0px 0px 0px 0px;
+    padding-left: 7px;
+    padding-bottom: 30px;
+    float: left;
+}
+
+#leftnav_top {
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+
+#leftmenu A:link{
+    cursor: pointer;
+    text-decoration: none;
+    color: Gray;
+    display: inline;
+    background-color: transparent;
+    padding-bottom: 2px;
+    padding-left: 0px;
+    padding-right: 3px;
+    padding-top: 2px;
+    font-weight: bolder;
+    margin: 0px;
+    font-size: 85%;
+}
+
+#leftmenu A:visited{
+    cursor: pointer;
+    text-decoration: none;
+    color: Gray;
+    display: inline;
+    background-color: transparent;
+    padding-bottom: 2px;
+    padding-left: 0px;
+    padding-right: 3px;
+    padding-top: 2px;
+    font-weight: bolder;
+    margin: 0px;
+    font-size: 85%; 
+}
+
+#leftmenu A:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: White;
+    display: inline;
+    background-color: #99B1F6;
+    padding-bottom: 2px;
+    padding-left: 0px;
+    padding-right: 3px;
+    padding-top: 2px;
+    font-weight: bolder;
+    margin: 0px;
+    font-size: 85%;
+}
+
+.menu_items {
+    list-style-position: outside;
+    list-style-image: url(image/point.gif);
+    margin-left: 20px;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.menu_items LI {
+    margin-bottom: 2px;
+    margin-top: 2px;
+    text-indent: 0px;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+.menu_title {
+    font-size: small;
+    font-weight: bolder;
+    padding-left: 1px;  
+}
+
+.menu_title a:link{
+    cursor: pointer;
+    text-decoration: none;
+    color: Black;
+    display: block;
+    background-color: transparent;
+    font-weight: bolder;
+    font-size: small;
+    margin-left: 0px;
+    padding-left: 1px;
+}
+.menu_title a:visited{
+    cursor: pointer;
+    text-decoration: none;
+    color: Black;
+    display: block;
+    background-color: transparent;
+    font-weight: bolder;
+    font-size: small;   
+    margin-left: 0px;   
+    padding-left: 0px;  
+}
+
+.menu_title a:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: White;
+    display: block;
+    background-color: #99B1F6;
+    font-weight: bolder;
+    font-size: small;   
+    margin-left: 0px;
+    padding-left: 0px;  
+}
+
+#loginpanel {
+    border: 1px dashed #99B1F6;
+    margin-right: 4px;
+    background-color: #EAEAFF;
+    padding: 5px 5px 5px 5px;
+    font-size: x-small;
+    font-weight: bold;
+    height: 100px;
+}
+
+#loginpanel .input {
+    font-size: small;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background-color: White;
+    color: Black;
+    border: 1px solid Gray;
+    margin-left: 15px;
+}
+
+#loginpanel .button {
+    font-size: small;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background-color: #99B1F6;
+    color: White;
+    border: 1px solid #99B1F6;
+    cursor: pointer;
+    font-weight: bold;
+    left: 65px;
+    margin-top: 7px;
+    position: absolute;
+}
+
+#contextpanel {
+    text-align: center;
+    margin-right: 4px;
+    font-size: small;
+    font-weight: bold;
+}
+
+#contextpanel .input {
+    font-size: small;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background-color: White;
+    color: Black;
+    border: 1px solid Gray;
+    height: 18px;
+}
+
+#topnav {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    background-color: #F6F6F6;
+    height: 25px;
+    vertical-align: middle;
+    border-right: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-bottom: 1px dashed #D9D9D9;
+    color: Gray;
+    padding: 0px;
+    margin: 0px;
+}
+#topmenu {
+    padding-top: 4px;
+    padding-left: 20px;
+}
+#topmenu A:link{
+    cursor: pointer;
+    text-decoration: none;
+    display: inline;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 85%;
+    font-weight: bold;
+    color: Gray;    
+    padding-top: 2px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;     
+}
+.disabled {
+    font-size: 85%;
+    font-weight: normal;
+}
+#topmenu A:visited{
+    cursor: pointer;
+    text-decoration: none;
+    display: inline;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 85%;
+    font-weight: bold;
+    color: Gray;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px; 
+}
+
+#topmenu A:hover{
+    cursor: pointer;
+    text-decoration: none;
+    display: inline;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 85%;
+    font-weight: bold;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #99B1F6;
+    color: White;
+}
+
+#topmenu_right {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+}
+
+#datetime {
+    text-align: right;
+    right: 3px;
+}
+
+#print_label {
+    height: 20pt;
+    font-size: 10px;
+    text-align: right;
+}
+
+
+.data {
+    border: 1px solid Gray;
+    border-collapse: collapse;
+}
+
+.data thead tr {
+    font-size: small;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    background-color: #99B1F6;
+    color: White;
+    font-weight: bold;
+    height: 20px;
+}
+
+.data tfoot tr {
+    font-size: small;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    background-color: #99B1F6;
+    color: White;
+    font-weight: bold;
+    height: 20px;
+}
+
+.data thead td {
+    border: 1px solid #7B83FF;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.data tfoot td {
+    border: 0px solid #7B83FF;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.data tbody tr {
+    font-size: small;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+    padding-right: 5px; 
+}
+
+.data tbody td {
+    border: 1px solid Silver;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.data_login {
+    font-family: "Courier New", Courier, monospace;
+}
+
+.data_number {
+    text-align: right;
+}
+
+.form {
+    border: 1px dashed #E7E7E7;
+}
+
+.form tr {
+}
+
+.form th {
+    font-weight: bold;
+    padding-right: 10px;
+    padding-left: 10px; 
+    text-align: right;
+}
+
+.form_separator {
+
+}
+
+.form_button {
+    text-align: center;
+    height: 30px;
+}
+
+.form td {
+    font-size: small;
+    padding-right: 5px; 
+}
+
+.button
+{
+    font-size: small;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background-color: #99B1F6;
+    color: White;
+    border: 1px solid Gray;
+    height: 20px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.input
+{
+    font-size: small;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background-color: White;
+    color: Black;
+    border: 1px solid #99B1F6;
+}
+
+.required {
+    font-size: small;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background-color: #F0FFFF;
+    color: Black;
+    border: 1px solid #4C9ABC;
+}
+
+A:link{
+    cursor: pointer;
+    text-decoration: underline;
+    color: Blue;
+}
+A:visited{
+    cursor: pointer;
+    text-decoration: underline;
+    color: Blue;
+}
+
+A:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: Red;
+}
+h2 A:link {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h2 A:visited {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h2 A:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+.important {
+    color: Red;
+}
+
+.removed {
+    color: Silver;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.otazka {
+}
+
+.odpoved {
+    font-size: small;
+    font-style: italic;
+}
+
+.small {
+    font-size: smaller;
+}
+
+.skip {
+    margin-top: 30px;
+}
+
+@media print {div#leftnav {display: none;}}
+@media print {div#topnav {display: none;}}
+@media print {table.search {display: none;}}
+@media print {div#bottomnav {display: none;}}
+@media print {div#content {border: 0px; margin: 0px; left: 0px}}
+@media print {.data thead tr {background-color: White; color: Black}}
+@media print {.data tfoot tr {background-color: White; color: Black}}
+
+@media screen {div#print_label {display: none;}}
+@media print {div#print_label {display: marker;}}

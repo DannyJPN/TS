@@ -1,0 +1,6 @@
+Radio Mobile 04-04-2019 13:41:53
+Polar coverage centered at BTS                 
+Area covered is 76 square km on ..\Picture3.bmp
+Radio Mobile 04-04-2019 13:42:10
+Polar coverage centered at BTS                 
+Area covered is 76 square km on ..\Picture4.bmp
